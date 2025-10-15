@@ -1,0 +1,9 @@
+{
+    "name": "theme_info",
+    "theme_name": "My Custom Theme",
+    "version": "1.0.0",
+    "theme_author": "Zarjij Hasan",
+    // "theme_author_url": "https://zarjijhasan.com"
+    "theme_documentation_url": "https://zarjijhasan.com",
+    "theme_support_url": "https://zarjijhasan.com"
+}
