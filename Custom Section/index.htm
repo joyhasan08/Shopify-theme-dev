@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.urban-den {
+  background: #222;
+  padding: 25px;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 100%;
+  margin: auto;
+}
+
+.ud-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ud-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.social a {
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  opacity: 0.6;
+}
+
+.ud-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.ud-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .ud-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ud-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ud-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .ud-gallery img {
+    height: 200px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <main>
+
+
+
+
+        <div class="section1">
+            <h2 style="color: white;">InstaPic</h2>
+            <div>
+                <p>Social Media</p>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">                    
+            </div>
+        </div>
+        <div class="section2" style="display: flex; gap: 8px;">
+            <img  style="width: 100%; " src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+      </section>   -->
+
+<section class="urban-den">
+  <div class="ud-header">
+    <h2 style="color: white;" >InstaPic</h2>
+    <div class="social">
+      <span>Social Media:</span>
+      <a href="#">
+        <img style="width: 24px;" src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/instagram_1.png?v=1764873798" alt="">
+      </a>
+      <a href="#">
+        <img style="width: 24px;"  src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/pinterest_1.png?v=1764873798" alt="">
+      </a>
+     <a href="#">
+         <img style="width: 24px;"  src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/facebook_1.png?v=1764873798" alt="">
+     </a>
+    </div>
+  </div>
+
+  <div class="ud-gallery">
+    <img src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/Gemini_Generated_Image_lfm9xplfm9xplfm9_27706f64-4afb-46d3-8a09-83d03e965cf2.png?v=1764804542" alt="Interior 1">
+    <img src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/Gemini_Generated_Image_lp3j9nlp3j9nlp3j.png?v=1764804626" alt="Interior 2">
+    <img src="https://cdn.shopify.com/s/files/1/0867/7362/9285/files/Untitled_design_90.png?v=1764804508" alt="Interior 3">
+  </div>
+</section>
+
+    </main>
+</body>
+</html>
